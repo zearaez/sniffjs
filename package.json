@@ -19,12 +19,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/zearaez/sniff-js.git"
+    "url": "https://github.com/zearaez/sniffjs.git"
   },
   "bugs": {
-    "url": "https://github.com/zearaez/sniff-js/issues"
+    "url": "https://github.com/zearaez/sniffjs/issues"
   },
-  "homepage": "https://github.com/zearaez/sniff-js#readme",
+  "homepage": "https://github.com/zearaez/sniffjs#readme",
   "publishConfig": {
     "access": "public"
   },
