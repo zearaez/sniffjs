@@ -1,6 +1,8 @@
-# SniffJS
+# @zearaez/sniff-js
 
 A lightweight JavaScript error tracking and logging library for frontend applications.
+
+[![npm version](https://badge.fury.io/js/@zearaez%2Fsniff-js.svg)](https://badge.fury.io/js/@zearaez%2Fsniff-js)
 
 ## Features
 
@@ -15,13 +17,13 @@ A lightweight JavaScript error tracking and logging library for frontend applica
 ## Installation
 
 ```bash
-npm install sniffjs
+npm install @zearaez/sniff-js
 ```
 
 ## Quick Start
 
 ```javascript
-import { Sniff } from 'sniffjs';
+import { Sniff } from '@zearaez/sniff-js';
 
 // Initialize with your project
 const sniff = new Sniff({
@@ -58,7 +60,7 @@ sniff.log('User clicked checkout button', {
 
 ### Environment Detection
 
-By default, logs are only sent in production environments. SniffJS automatically detects production environments by checking:
+By default, logs are only sent in production environments. @zearaez/sniff-js automatically detects production environments by checking:
 
 ```javascript
 process.env.NODE_ENV === "production" || import.meta.env?.MODE === "production"
@@ -68,7 +70,7 @@ To enable logging in development environments, set the `enableInDev` option to `
 
 ## How It Works
 
-SniffJS works by:
+@zearaez/sniff-js works by:
 
 1. Setting up global error handlers via `setupGlobalHandlers` to catch JavaScript errors
 2. Intercepting network requests with `setupNetworkInterceptors` to monitor fetch and XHR failures
@@ -91,7 +93,7 @@ This will generate compiled output in the `dist` directory.
 
 ## Browser Compatibility
 
-SniffJS works in all modern browsers that support:
+@zearaez/sniff-js works in all modern browsers that support:
 - `Navigator.sendBeacon`
 - `Promise`
 - `fetch` API

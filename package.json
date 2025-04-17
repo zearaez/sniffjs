@@ -1,28 +1,33 @@
 {
-  "name": "sniffjs",
+  "name": "@zearaez/sniff-js",
   "version": "1.0.0",
-  "description": "Frontend error tracking and logging library",
   "main": "dist/index.js",
+  "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "rollup -c"
   },
   "keywords": [
-    "error",
-    "tracker",
+    "error-tracking",
     "logger",
-    "frontend",
-    "js",
-    "monitoring"
+    "frontend"
   ],
-  "author": "Your Name",
+  "author": "Sanjeeb Sapkota",
   "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "description": "Frontend error tracking and logging library",
   "devDependencies": {
     "@rollup/plugin-commonjs": "^28.0.3",
     "@rollup/plugin-node-resolve": "^16.0.1",
     "@rollup/plugin-typescript": "^12.1.2",
     "@types/node": "^22.14.1",
     "rollup": "^4.40.0",
+    "rollup-plugin-dts": "^6.2.1",
     "typescript": "^5.8.3"
   },
   "dependencies": {
