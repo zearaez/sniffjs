@@ -18,7 +18,7 @@ A lightweight JavaScript error tracking and logging library for frontend applica
 npm install sniffjs
 ```
 
-## Quick Start
+<!-- ## Quick Start
 
 ```javascript
 import { Sniff } from 'sniffjs';
@@ -26,7 +26,7 @@ import { Sniff } from 'sniffjs';
 // Initialize with your project token
 const sniff = new Sniff({
   token: 'your-project-token'
-});
+}); -->
 
 // Now errors will be automatically captured and reported
 ```
@@ -37,13 +37,12 @@ The `Sniff` class accepts the following options:
 
 ```typescript
 interface SniffOptions {
-  token?: string;        // Your project token
-  endpoint?: string;     // Custom reporting endpoint (if not using token)
+  endpoint?: string;     // Custom reporting endpoint of your app
   enableInDev?: boolean; // Enable logging in development mode (false by default)
 }
 ```
 
-You must provide either a `token` or custom `endpoint` parameter.
+You must provide `endpoint` parameter.
 
 ## Usage
 
