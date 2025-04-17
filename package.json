@@ -1,6 +1,6 @@
 {
   "name": "@zearaez/sniff-js",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
@@ -17,6 +17,14 @@
   "files": [
     "dist"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zearaez/sniff-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zearaez/sniff-js/issues"
+  },
+  "homepage": "https://github.com/zearaez/sniff-js#readme",
   "publishConfig": {
     "access": "public"
   },
