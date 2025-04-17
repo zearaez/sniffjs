@@ -18,18 +18,18 @@ A lightweight JavaScript error tracking and logging library for frontend applica
 npm install sniffjs
 ```
 
-<!-- ## Quick Start
+## Quick Start
 
 ```javascript
 import { Sniff } from 'sniffjs';
 
-// Initialize with your project token
+// Initialize with your project
 const sniff = new Sniff({
-  token: 'your-project-token'
+  endpoint: 'your-reporting-api-endpoint'
 });
 
 // Now errors will be automatically captured and reported
-``` -->
+```
 
 ## Configuration
 
