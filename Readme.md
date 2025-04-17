@@ -26,10 +26,10 @@ import { Sniff } from 'sniffjs';
 // Initialize with your project token
 const sniff = new Sniff({
   token: 'your-project-token'
-}); -->
+});
 
 // Now errors will be automatically captured and reported
-```
+``` -->
 
 ## Configuration
 
